@@ -1,0 +1,113 @@
+# Akshara 2.0 - README
+
+## Introduction
+Akshara 2.0 is a comprehensive text editor built with Python's Tkinter library. It offers various features such as syntax highlighting, text formatting, and the ability to run code snippets in multiple programming languages. This editor aims to provide a rich user experience for developers and writers.
+
+## Features
+1. **Syntax Highlighting**:
+   - Supports multiple languages: Python, JavaScript, Markdown, C, C++, C#.
+   - Customizable themes (Light, Dark, Solarized, GitHub).
+
+2. **Text Formatting**:
+   - Bold, Italic, Underline text.
+   - Align text: Left, Center, Right, Justify.
+   - Insert Bullets.
+   - Superscript and Subscript.
+
+3. **File Operations**:
+   - New, Open, Save, Save As.
+
+4. **Edit Operations**:
+   - Cut, Copy, Paste, Select All, Find, Replace.
+
+5. **Compiler Integration**:
+   - Run code snippets in Python, Java, C, C++, and C#.
+
+6. **Miscellaneous**:
+   - Line numbers.
+   - Word count.
+   - Toggle Dark Mode.
+   - Change Font, Text Color, Background Color, Font Size, Font Style.
+
+## Installation
+1. Ensure you have Python installed on your machine.
+2. Install the required dependencies:
+   ```bash
+   pip install tk
+   ```
+
+## Usage
+1. **Running the Application**:
+   ```bash
+   python Akshara\ 2.0.py
+   ```
+2. **Navigating the Menu**:
+   - **File Menu**: Create new files, open existing files, save files.
+   - **Edit Menu**: Format text (bold, italic, underline), align text, cut, copy, paste, find, replace.
+   - **Format Menu**: Change font, text color, background color, font size, font style, enable syntax highlighting.
+   - **View Menu**: Check word count, toggle dark mode.
+   - **Themes Menu**: Switch between Light, Dark, Solarized, and GitHub themes.
+   - **Compiler Menu**: Run code snippets in Python, Java, C, C++, and C#.
+
+## Shortcuts
+- **File Shortcuts**:
+  - `Ctrl+N`: New File
+  - `Ctrl+O`: Open File
+  - `Ctrl+S`: Save File
+  - `Ctrl+Shift+S`: Save As File
+  - `Alt+F4`: Exit
+
+- **Edit Shortcuts**:
+  - `Ctrl+B`: Bold
+  - `Ctrl+I`: Italic
+  - `Ctrl+U`: Underline
+  - `Ctrl+L`: Align Left
+  - `Ctrl+E`: Align Center
+  - `Ctrl+R`: Align Right
+  - `Ctrl+J`: Justify
+  - `Ctrl+X`: Cut
+  - `Ctrl+C`: Copy
+  - `Ctrl+V`: Paste
+  - `Ctrl+A`: Select All
+  - `Ctrl+F`: Find
+  - `Ctrl+H`: Replace
+  - `Ctrl+Shift+B`: Insert Bullets
+
+- **Format Shortcuts**:
+  - `Ctrl+F`: Change Font
+  - `Ctrl+T`: Change Text Color
+  - `Ctrl+G`: Change Background Color
+  - `Ctrl+Shift+F`: Change Font Size
+  - `Ctrl+Shift+S`: Change Font Style
+
+- **View Shortcuts**:
+  - `Ctrl+W`: Word Count
+  - `Ctrl+D`: Toggle Dark Mode
+
+- **Compiler Shortcuts**:
+  - `Ctrl+P`: Run Python Code
+  - `Ctrl+Shift+J`: Run Java Code
+  - `Ctrl+Shift+C`: Run C Code
+  - `Ctrl+Shift+P`: Run C++ Code
+  - `Ctrl+Shift+H`: Run C# Code
+
+## Code Example
+Here's a simple example of running a Python code snippet in Akshara 2.0:
+
+```python
+print("Hello, World!")
+```
+
+To run this code:
+1. Type the code in the text editor.
+2. Go to `Compiler -> Python` or press `Ctrl+P`.
+
+## Contributing
+If you would like to contribute to Akshara 2.0, please fork the repository and create a pull request. For any issues, you can report them in the issues section of the repository.
+
+## License
+Akshara 2.0 is licensed.
+
+---
+
+This README provides a comprehensive guide to using Akshara 2.0. Enjoy coding and writing with Akshara 2.0!
